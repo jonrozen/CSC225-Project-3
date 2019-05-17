@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <title>Inches and Centimeters Conversion</title>
+    <style type="text/css">
+      .clear {
+        clear: both;
+      }
+
+      .boxSize {
+        padding-top:10px;
+        border-radius: 5px;
+        margin-bottom: 25px;
+      }
+    </style>
+
+  </head>
+
+  <body class="text-light bg-light">
+    <nav class="navbar navbar-dark bg-dark">
+      <a class="navbar-brand" href="index.html">Jonathan's Unit Converter</a>
+    </nav>
+    <div class="container">
+      <br>
+      <div class="container col-lg-5 col-sm-12 float-left bg-dark boxSize">
+        <form id="inchConv">
+          <legend class="font-weight-bold">Inches to Centimeters</legend>
+          <div class="input-group mb-3 float-left col-sm-9">
+            <input type="text" id="input-inch" class="form-control" aria-describedby="basic-addon1">
+          </div>
+          <button type="Submit" id="button-inch" class="btn btn-secondary float-right col-sm-3">Convert</button>
+          <div class="clear"></div>
+          <div class="container">
+          <div id="results-inch"><p>Enter something to convert!</p></div>
+          </div>
+        </form>
+      </div>
+
+      <div class="col-lg-2"></div>
+
+      <div class="container col-lg-5 col-sm-12 float-right bg-dark boxSize">
+        <form id="cmConv">
+          <legend class="font-weight-bold">Centimeters to Inches</legend>
+          <div class="input-group mb-3 float-left col-sm-9">
+            <input type="text" id="input-cm" class="form-control" aria-describedby="basic-addon1">
+          </div>
+          <button type="Submit" id="button-cm" class="btn btn-secondary float-right col-sm-3">Convert</button>
+          <div class="clear"></div>
+          <div class="container">
+            <div id="results-cm"><p>Enter something to convert!</p></div>
+          </div>
+        </form>
+      </div>
+      
+    </div>
+
+    <div id="tasks"></div>
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
